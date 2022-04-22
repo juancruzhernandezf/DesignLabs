@@ -65,7 +65,7 @@ p {
 }
 
 .sectionHero {
-    width: 460px;/* ESTO LO PUSE SOLO POR AHORA ANTES DE PONER EL QUERY*/
+    width: 375px;/* ESTO LO PUSE SOLO POR AHORA ANTES DE PONER EL QUERY*/
     display: flex;
     position: relative;
     padding-top: 0rem;
@@ -134,4 +134,8 @@ h1 {
     font-size: 1rem;
     text-align: center;
     color: #204B8F;
+}
+
+.checkInteresado {
+    display: block;
 }
