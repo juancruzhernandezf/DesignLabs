@@ -122,11 +122,11 @@ main {
     padding: 0 1rem 0 1rem;
 }
 
-input {
+/*input {
     width: 100%;
     display: block;
     margin: auto;
-}
+}*/
 
 h1 {
     padding: 1rem 0 1rem 0;
@@ -136,6 +136,8 @@ h1 {
     color: #204B8F;
 }
 
-.checkInteresado {
-    display: block;
+
+
+.checkbox1 label {
+    flex-grow: 1;
 }
