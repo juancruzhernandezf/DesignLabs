@@ -15,7 +15,7 @@ html {
 
 
 header {
-    width: 460px;
+    width: 375px;
     height: 4rem;
     position: relative;
     display: flex;
@@ -120,6 +120,7 @@ p {
 
 main {
     padding: 0 1rem 0 1rem;
+    width: 375px;
 }
 
 /*input {
@@ -136,8 +137,18 @@ h1 {
     color: #204B8F;
 }
 
+input[type="text"], input[type="email"] {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 
 
-.checkbox1 label {
-    flex-grow: 1;
+.inputLanding {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.75rem;
 }
