@@ -28,12 +28,11 @@ header {
 }
 
 body {
-    width: auto;
     margin: 0;
     min-height: 100vh;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.95rem;
     color: #fff;
     margin-top: 1.5rem;
 }
@@ -66,7 +65,6 @@ h4 {
 }
 
 .section-hero {
-    width: auto;/* ESTO LO PUSE SOLO POR AHORA ANTES DE PONER EL QUERY*/
     display: flex;
     position: relative;
     padding-top: 0rem;
