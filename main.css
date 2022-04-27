@@ -15,7 +15,7 @@ html {
 
 
 header {
-    width: 375px;
+    width: auto;
     height: 5rem;
     position: relative;
     display: flex;
@@ -28,10 +28,9 @@ header {
 }
 
 body {
-    width: 375px;
+    width: auto;
     margin: 0;
     min-height: 100vh;
-    border-right: solid 1px black;
 }
 h2 {
     font-size: 2rem;
@@ -39,7 +38,7 @@ h2 {
     margin-top: 1.5rem;
 }
 
-.heroTextGratis {
+.hero-text-gratis {
     font-size: 3rem;
 }
 
@@ -55,19 +54,19 @@ h4 {
     font-size: 0.75rem;
     font-weight: 500;
 }
-.designLabsHeaderText {
+.design-labs-header-text {
     margin-left: 1rem;
 
 }
 
 .section-hero p {
-    font-size: 00.75rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: #204B8F;
 }
 
 .section-hero {
-    width: 375px;/* ESTO LO PUSE SOLO POR AHORA ANTES DE PONER EL QUERY*/
+    width: auto;/* ESTO LO PUSE SOLO POR AHORA ANTES DE PONER EL QUERY*/
     display: flex;
     position: relative;
     padding-top: 0rem;
@@ -93,7 +92,7 @@ h4 {
 
 }
 
-.iconoMasInfo {
+.icono-mas-info {
     width: 2.125rem;
     height: 2.875rem;
     border: solid 2px #204B8F;
@@ -101,7 +100,7 @@ h4 {
     margin: auto;
 }
 
-.flechitaIcon {
+.flecha-icon {
     position: relative;
     bottom: -1.2rem;
     animation: bottom-to-top 1600ms ease-in-out backwards infinite;
@@ -122,7 +121,6 @@ h4 {
 
 main {
     padding: 0 1rem 0 1rem;
-    width: 375px;
 }
 
 h1 {
@@ -210,21 +208,12 @@ input[type="submit"]:active {
     flex-direction: row;
 }
 
-.checkbox1 {
-    width: 50%;
-}
-
-.checkbox2 {
-    width: 50%;
-}
-
 .subtitle-header {
     font-size: 0.75rem;
 }
 
 .confian-nosotros {
-    margin-top: 1.5rem;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 .confian-nosotros h4 {
@@ -270,7 +259,7 @@ footer {
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 footer img {
