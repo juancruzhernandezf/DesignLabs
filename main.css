@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Inter;
-    src: url(RESOURCES/FONTS/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: inter;
+    src: url(resources/fonts/Inter-VariableFont_slnt\,wght.ttf);
    
 }
 html {
     box-sizing: border-box;
-    font-family: Inter;
+    font-family: inter;
 }
 
 *, *:before, *:after {
