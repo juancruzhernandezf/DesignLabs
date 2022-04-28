@@ -186,13 +186,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: rgb(34, 76, 160);
-    color: #fff;
 }
 
 input[type="submit"]:active {
     background-color: rgb(28, 60, 124);
-    color: #fff;
-    
 }
 
 .me-interesa {
