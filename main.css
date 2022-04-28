@@ -211,7 +211,7 @@ input[type="submit"]:active {
 }
 
 .confian-nosotros {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .confian-nosotros h4 {
@@ -219,11 +219,6 @@ input[type="submit"]:active {
     font-weight: 600;
     color: #204B8F;
     margin: 0;
-}
-
-.confian-nosotros p {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
 }
 
 .marcas-confian {
@@ -239,7 +234,7 @@ input[type="submit"]:active {
 
 
 footer {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     height: 4rem;
     color: #fff;
     background: #204B8F;
@@ -268,7 +263,7 @@ footer a {
     align-items: center;
     background: #fff;
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.25);
-    margin: 0.5rem 0;
+    margin: 0.5rem 1rem;
     border-radius: 0.25rem;
     padding: 0 1rem;
 }
