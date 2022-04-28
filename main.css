@@ -204,6 +204,15 @@ input[type="submit"]:active {
 .checkbox-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.cbox-left {
+    padding-right: 1rem;
+}
+
+.cbox-right {
+    padding-right: 1rem;
 }
 
 .subtitle-header {
