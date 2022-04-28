@@ -182,6 +182,7 @@ input[type="submit"] {
     background-color: rgba(42,98,209,1);
     color: #fff;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover {
